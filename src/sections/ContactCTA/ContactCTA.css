@@ -1,0 +1,73 @@
+.contact-cta {
+  background: var(--bg-main);
+}
+
+.cta-card {
+  background: var(--primary-dark);
+  padding: 4rem 2rem;
+  border-radius: var(--radius-lg);
+  text-align: center;
+  color: var(--bg-white);
+  box-shadow: var(--shadow-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -10%;
+  width: 300px;
+  height: 300px;
+  background: var(--primary);
+  opacity: 0.2;
+  filter: blur(80px);
+  border-radius: 50%;
+}
+
+.cta-card h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-card p {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.btn-outline-white {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: var(--bg-white);
+}
+
+.btn-outline-white:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: var(--bg-white);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .cta-card {
+    padding: 3rem 1.5rem;
+  }
+  
+  .cta-card h2 {
+    font-size: 1.75rem;
+  }
+  
+  .cta-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+}

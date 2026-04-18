@@ -1,0 +1,33 @@
+:root {
+  /* Color Palette */
+  --primary: #2d5a27;
+  --primary-light: #45823c;
+  --primary-dark: #1b3a18;
+  --secondary: #a8c69f;
+  --accent: #f47c20;
+  --accent-vibrant: #27ae60;
+  --bg-main: #f9fbf9;
+  --bg-white: #ffffff;
+  --text-main: #1a1a1a;
+  --text-muted: #555555;
+  --border: #e0e6e0;
+
+  /* Typography */
+  --font-heading: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 8rem;
+
+  /* Misc */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
